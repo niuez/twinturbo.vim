@@ -11,8 +11,8 @@ let colors_name='twinturbo'
 let s:b1 = "#3867b1"
 let s:b2 = "#3c93f8"
 let s:b3 = "#22BDB9"
-let s:b4 = "#2dfbf5"
-
+let s:r1 = "#f571b9"
+let s:g1 = "#cef57a"
 let s:black = "#77808C"
 
 let s:fg = s:b1
@@ -108,11 +108,11 @@ call s:h("Comment" , s:grey , s:none , "")
 call s:h("Constant" , s:sky1 , s:none , "")
 
 " literal
-call s:h("String" , s:sky2 , s:none , "")
-call s:h("Character" , s:sky2 , s:none , "")
-call s:h("Number" , s:sky2 , s:none , "")
-call s:h("Boolean" , s:sky2 , s:none , "")
-call s:h("Float" , s:sky2 , s:none , "")
+call s:h("String" , s:r1 , s:none , "")
+call s:h("Character" , s:r1 , s:none , "")
+call s:h("Number" , s:r1 , s:none , "")
+call s:h("Boolean" , s:r1 , s:none , "")
+call s:h("Float" , s:r1 , s:none , "")
 
 
 call s:h("Identifier" , s:sky1 , s:none , "")
